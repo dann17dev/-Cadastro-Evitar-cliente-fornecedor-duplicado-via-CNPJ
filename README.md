@@ -30,11 +30,13 @@ User Function ValidaCNPJ(cCNPJ, cTipo)
 
 Return .T.
 ```
-🧪 Testes realizados
-Situação	Resultado Esperado
-Cadastro com CNPJ novo	✅ Cadastro permitido
-Cadastro com CNPJ existente	❌ Bloqueado, com aviso
-Importação via Excel com CNPJ duplicado	❌ Registro ignorado ou logado
+## 🧪 Testes realizados
+
+| Situação                          | Resultado Esperado                          |
+|---------------------------------------|-----------------------------------------|
+| Cadastro com CNPJ novo                | ✅ Cadastro permitido                   |
+| Cadastro com CNPJ existente           | ❌ Bloqueado, com aviso                 |
+| Importação via Excel com CNPJ duplicado | ❌ Registro ignorado ou logado        |
 
 🎯 Benefícios
 Evita duplicidade de cadastros no SA1/SA2
